@@ -1,26 +1,42 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+Light Pink: #ffd6f6
+Soft Lavender: #f2d9ef
+Pastel Blue: #d8e5f7
+Peach Blush: #fedcdb
 */
 
 /* Global styles 
 ------------------------------------*/
 body {
-    /*background: lightblue;*/
+    background: linear-gradient(to right, #ffd6f6, #d8e5f7);
+    font-family: 'Roboto Slab', serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Jersey 10', sans-serif;
+    color: #9e72cc;
+}
 
 /* Header & Footer 
 ------------------------------------*/
+.sitee-header {
+    background: linear-gradient(to right, #ffd6f6, #fedcdb);
+}
 
 
+.site-footer {
+    background: linear-gradient(to right, #ffd6f6, #d8e5f7);
+}
 
 /* Work Experience
 ------------------------------------*/
-
+.work-experience {
+    background: linear-gradient(to left, #d8e5f7, #fdf1c9);
+}
 
 
 /* Education
 ------------------------------------*/
+.education {
+    background: linear-gradient(to right, #fedcdb, #fdf1c9);
+}
