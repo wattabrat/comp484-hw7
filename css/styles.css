@@ -40,3 +40,10 @@ h1, h2, h3 {
 .education {
     background: linear-gradient(to right, #fedcdb, #fdf1c9);
 }
+
+/* Wrapper for content sections */
+.content-wrapper {
+    width: 950px;
+    margin: 0 auto;
+    /* padding: 20px; */
+}
