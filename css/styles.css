@@ -85,3 +85,7 @@ h1, h2, h3 {
   float: left;
   min-height: 225px;
 }
+
+.job-item {
+  overflow: hidden;
+}
