@@ -5,27 +5,42 @@ Pastel Blue: #d8e5f7
 Peach Blush: #fedcdb
 */
 
+/*box model
+------------------------------------*/
+/* Box Model Fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /* Global styles 
 ------------------------------------*/
 body {
     background: linear-gradient(to right, #ffd6f6, #d8e5f7);
     font-family: 'Roboto Slab', serif;
+    margin:0;
 }
 
 h1, h2, h3 {
     font-family: 'Jersey 10', sans-serif;
     color: #9e72cc;
+    margin-top: 0;
+    margin: 0;
 }
 
 /* Header & Footer 
 ------------------------------------*/
-.sitee-header {
+.site-header {
     background: linear-gradient(to right, #ffd6f6, #fedcdb);
+    
 }
 
 
 .site-footer {
     background: linear-gradient(to right, #ffd6f6, #d8e5f7);
+    text-align: center;
 }
 
 /* Work Experience
@@ -43,7 +58,30 @@ h1, h2, h3 {
 
 /* Wrapper for content sections */
 .content-wrapper {
-    width: 950px;
+    max-width: 950px;
     margin: 0 auto;
-    /* padding: 20px; */
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* Profile image styling */
+.profile-image {
+  width: 200px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+/* columns */
+.column-narrow {
+  width: 30%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+
+.column-wide {
+  width: 70%;
+  float: left;
+  min-height: 225px;
 }
